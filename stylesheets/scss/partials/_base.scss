@@ -1,0 +1,60 @@
+/*
+ * BASE STYLES
+ * ================================ */
+//box-sizing model = margin and paddgin inside element so they don't increase width of component.
+*, 
+*:before, 
+*:after{
+  box-sizing: border-box;
+}
+
+
+html, body {
+  width:100%;
+  font: normal 1rem/1.4 'Overpass', sans-serif;
+  font-weight: 300;
+}
+
+html {
+  font-size: 100%;
+}
+
+body{
+ color: black;
+ font-size:14px;
+ // height: 100%;
+ overflow: scroll;
+ background: white;
+ position:relative;
+}
+
+a,
+a:hover,
+a:focus{
+  color:inherit;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+}
+
+
+button{
+  background: none;
+  border: none;
+  &:focus{
+    outline: none;
+  }
+}
+
+
+form{
+  position: relative;
+}
+
+
+ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
