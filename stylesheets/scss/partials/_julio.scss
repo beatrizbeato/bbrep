@@ -1,15 +1,28 @@
 $j-gutter: 20px;
 .page{
-	border: 1px solid grey;
 	display:flex;
 	flex-wrap: wrap ;
+	border: 1px solid grey;
+	margin: $j-gutter auto;
+	
 	&--A4{
 	width: 595px;
 	height: 845px;
 	}		
 }
 
-.section-50{
+.page__separtaion{
+	
+	width: 595px;
+	border-top: 2px solid #f0ad4e;
+	border-bottom: 2px solid #f0ad4e;
+	margin: $j-gutter auto;
+	padding: 10px $j-gutter 0px;
+	font-size:18px;
+	color: #f0ad4e;
+}
+
+.page__section--50{
 	width: 50%;
 	height:25%;
 	border: 1px solid grey;
@@ -27,6 +40,13 @@ $j-gutter: 20px;
 
 .card__news{	
 	margin-bottom: $j-gutter;
+}
+
+.u-text-smaller{
+	font-size: 13px;
+}
+.u-text-smallest{
+	font-size: 12px;
 }
 
 .card__action{
