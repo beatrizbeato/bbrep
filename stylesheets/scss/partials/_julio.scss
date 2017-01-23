@@ -2,7 +2,7 @@ $j-gutter: 20px;
 .page{
 	display:flex;
 	flex-wrap: wrap ;
-	border: 1px solid grey;
+	border: 1px solid transparent;
 	margin: $j-gutter auto;
 	
 	&--A4{
@@ -25,7 +25,7 @@ $j-gutter: 20px;
 .page__section--50{
 	width: 50%;
 	height:25%;
-	border: 1px solid grey;
+	border: 1px solid rgba(grey,0.1);
 }
 
 .card{
