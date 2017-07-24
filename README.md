@@ -2,11 +2,6 @@
 **This repo does not contain a `wercker.yml` file yet, so it is still not deployable.**
 _You have been warned._
 
-# Whitesmith Studio 3.0
-This is Whitesmith's website, available at [www.whitesmith.co][].
-
-[www.whitesmith.co]: http://www.whitesmith.co
-
 
 ## Development
 ### Basic
